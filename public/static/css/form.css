@@ -1,0 +1,114 @@
+select:disabled {
+    background-color: #f2f2f2;
+    color: #888;
+}
+
+.personnel_list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.add-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.add-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.add-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add-close:hover,
+.add-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.detail-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.detail-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.detail-close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+}
+
+.detail-close:hover,
+.detail-close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+.edit-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.edit-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.edit-close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+}
+
+.edit-close:hover,
+.edit-close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+}
